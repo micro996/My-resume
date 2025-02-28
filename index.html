@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Resume </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1> My Resume  </h1><header>
+        <img src="my photo.png" alt="Profile Image" style="width: 150px; height: 150px; border-radius: 150%;">
+    </header>
+    
+    <nav>
+        <a href="#" onclick="showSection('home')">home</a>
+        <a href="#" onclick="showSection('Education')">Education</a>
+        <a href="#" onclick="showSection('Technical Skills')">Technical Skills</a>
+        <a href="#" onclick="showSection('Soft Skills')">Soft Skills</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to the Home Page</h2> 
+    <p>
+    <br>
+        I have a foundational understanding of web development and am continuously improving my skills in building websites and web applications. My knowledge includes HTML, CSS, and JavaScript, which acontent, styling, and interactivity. I am familiar with designing simple layouts, working with forms, and ensuring responsiveness for different screen sizes. <br>
+      I have explored CSS frameworks like Bootstrap and Tailwind CSS to style web pages efficiently, making them visually appealing and mobile-friendly. Additionally, I have a basic understanding of JavaScript and how it enhances user interaction by adding dynamic elements such as buttons, menus, and animations. <br>
+      I am also learning the fundamentals of backend development, including how servers and databases work. I have a basic understanding of Node.js and Express.js, which help in handling server-side logic, and I am exploring MongoDB for data storage. While I am still at the beginner level, I am eager to expand my knowledge and build full-stack applications in the future. <br>
+      I have experience using Git and GitHub for version control, allowing me to track changes and collaborate on coding projects. Additionally, I am learning how to deploy websites using platforms like Netlify and Vercel.<br>
+      I am passionate about improving my web development skills and working on small projects to practice my knowledge. I aim to deepen my understanding of frontend and backend technologies, improve my coding efficiency, and eventually work on more complex web applications. <br>    
+
+    </p>
+    </section> 
+
+
+<section id="Education">
+    <h2>My Education </h2>
+    <p style="line-height: 1.2;">
+        Bachelor of Computer Applications (BCA)<br>
+        Final semester (Appearing) <br>
+        Arunachal University of Studies (AUS) <br>
+        Namsai 792103<br>
+        
+<strong>Additional Qualification</strong><br>
+        Diploma of 6 months course in (MICE)
+
+    </p>
+    
+</section>
+
+<section id="Technical Skills">
+    <h2> Key Skills</h2>
+    <p style="line-height: 1.2;">
+        Basic Computer Operations (Windows, MS Office, Internet)<br>
+        Digital Literacy Training (Typing, Email, Online Safety)
+        Digital Literacy Training (Typing, Email, Online Safety)
+<br>
+Troubleshooting and IT Support (Installing software, fixing minor issues)
+<br>
+Effective Teaching and Communication Skills<br>
+
+Classroom Management & Student Engagement<br>
+
+Online Learning Platforms (Google Classroom, Zoom)<br>
+
+Graphic Design Basics (Canva, Photoshop)<br>
+
+Social Media & Digital Tools (Google Drive, Cloud Storage)
+    </p>
+    
+</section>
+
+<section id="Soft Skills">
+    <h2>Personal Skills </h2>
+    <p style="line-height: 1.2;">
+        Good Communication Skills
+
+Patience and Willingness to Teach <br>
+
+Quick Learner and Adaptable<br>
+
+Problem-Solving Ski<br>
+    </p>
+    
+</section>
+
+
+<!-- Add Font Awesome for Icons -->
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<section id="contact" style="display: none;">
+    <h2>Get in Touch</h2>
+    <div>
+        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> <a href="tel: ">+9863084465</a></p>
+        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:yourname@example.com">thinglomabo@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Kheti Village,Khonsa 792130</p>
+    </div>
+</section>
+
+</section>
+
+    <script>
+    function showSection(sectionId) {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            section.style.display = 'none';
+        });
+        document.getElementById(sectionId).style.display = 'block';
+    }
+</script>
+
+
+</script>
+</body>
+</html>
